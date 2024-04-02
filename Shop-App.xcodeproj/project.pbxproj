@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA5D37B92BBC2D5800E0E6AF /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D37B82BBC2D5800E0E6AF /* HomeScreenView.swift */; };
+		DA5D37BB2BBC309C00E0E6AF /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D37BA2BBC309C00E0E6AF /* ProductDetailsView.swift */; };
 		DAB9371B2BBB5E630090CA5D /* Shop_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB9371A2BBB5E630090CA5D /* Shop_AppApp.swift */; };
 		DAB9371D2BBB5E630090CA5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB9371C2BBB5E630090CA5D /* ContentView.swift */; };
 		DAB9371F2BBB5E640090CA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB9371E2BBB5E640090CA5D /* Assets.xcassets */; };
 		DAB937222BBB5E640090CA5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB937212BBB5E640090CA5D /* Preview Assets.xcassets */; };
+		DAB9372A2BBB69140090CA5D /* PlayfairDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAB937292BBB69140090CA5D /* PlayfairDisplay-Regular.otf */; };
+		DAB9372D2BBB6BE70090CA5D /* PlayfairDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DAB9372C2BBB6BE70090CA5D /* PlayfairDisplay-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA5D37B82BBC2D5800E0E6AF /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		DA5D37BA2BBC309C00E0E6AF /* ProductDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsView.swift; sourceTree = "<group>"; };
 		DAB937172BBB5E630090CA5D /* Shop-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shop-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB9371A2BBB5E630090CA5D /* Shop_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop_AppApp.swift; sourceTree = "<group>"; };
 		DAB9371C2BBB5E630090CA5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAB9371E2BBB5E640090CA5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB937212BBB5E640090CA5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAB937292BBB69140090CA5D /* PlayfairDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.otf"; sourceTree = "<group>"; };
+		DAB9372B2BBB69B40090CA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DAB9372C2BBB6BE70090CA5D /* PlayfairDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA5D37B72BBC2D3300E0E6AF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DA5D37B82BBC2D5800E0E6AF /* HomeScreenView.swift */,
+				DA5D37BA2BBC309C00E0E6AF /* ProductDetailsView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		DAB9370E2BBB5E630090CA5D = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +69,9 @@
 		DAB937192BBB5E630090CA5D /* Shop-App */ = {
 			isa = PBXGroup;
 			children = (
+				DA5D37B72BBC2D3300E0E6AF /* Screens */,
+				DAB9372B2BBB69B40090CA5D /* Info.plist */,
+				DAB937282BBB68D00090CA5D /* Fonts */,
 				DAB9371A2BBB5E630090CA5D /* Shop_AppApp.swift */,
 				DAB9371C2BBB5E630090CA5D /* ContentView.swift */,
 				DAB9371E2BBB5E640090CA5D /* Assets.xcassets */,
@@ -65,6 +86,15 @@
 				DAB937212BBB5E640090CA5D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAB937282BBB68D00090CA5D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DAB937292BBB69140090CA5D /* PlayfairDisplay-Regular.otf */,
+				DAB9372C2BBB6BE70090CA5D /* PlayfairDisplay-Bold.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +157,8 @@
 			files = (
 				DAB937222BBB5E640090CA5D /* Preview Assets.xcassets in Resources */,
 				DAB9371F2BBB5E640090CA5D /* Assets.xcassets in Resources */,
+				DAB9372A2BBB69140090CA5D /* PlayfairDisplay-Regular.otf in Resources */,
+				DAB9372D2BBB6BE70090CA5D /* PlayfairDisplay-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +169,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5D37B92BBC2D5800E0E6AF /* HomeScreenView.swift in Sources */,
+				DA5D37BB2BBC309C00E0E6AF /* ProductDetailsView.swift in Sources */,
 				DAB9371D2BBB5E630090CA5D /* ContentView.swift in Sources */,
 				DAB9371B2BBB5E630090CA5D /* Shop_AppApp.swift in Sources */,
 			);
@@ -269,6 +303,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Shop-App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Shop-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +332,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Shop-App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Shop-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
